@@ -16,6 +16,10 @@
 		2C3023BC28EC723F0003D8D3 /* YukaLikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3023BB28EC723F0003D8D3 /* YukaLikeTests.swift */; };
 		2C3023C628EC723F0003D8D3 /* YukaLikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3023C528EC723F0003D8D3 /* YukaLikeUITests.swift */; };
 		2C3023C828EC723F0003D8D3 /* YukaLikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3023C728EC723F0003D8D3 /* YukaLikeUITestsLaunchTests.swift */; };
+		2C3023D528EC77E10003D8D3 /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3023D428EC77E10003D8D3 /* HttpClient.swift */; };
+		2C30241D28EEC68A0003D8D3 /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C30241C28EEC68A0003D8D3 /* ProductResponse.swift */; };
+		2C30241F28EEC7090003D8D3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C30241E28EEC7090003D8D3 /* Product.swift */; };
+		2C30242128F466570003D8D3 /* Nutriments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C30242028F466570003D8D3 /* Nutriments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		2C3023C128EC723F0003D8D3 /* YukaLikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YukaLikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3023C528EC723F0003D8D3 /* YukaLikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YukaLikeUITests.swift; sourceTree = "<group>"; };
 		2C3023C728EC723F0003D8D3 /* YukaLikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YukaLikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2C3023D428EC77E10003D8D3 /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		2C30241C28EEC68A0003D8D3 /* ProductResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductResponse.swift; sourceTree = "<group>"; };
+		2C30241E28EEC7090003D8D3 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		2C30242028F466570003D8D3 /* Nutriments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutriments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 				2C3023AD28EC723F0003D8D3 /* Assets.xcassets */,
 				2C3023AF28EC723F0003D8D3 /* LaunchScreen.storyboard */,
 				2C3023B228EC723F0003D8D3 /* Info.plist */,
+				2C3023D428EC77E10003D8D3 /* HttpClient.swift */,
+				2C30241C28EEC68A0003D8D3 /* ProductResponse.swift */,
+				2C30241E28EEC7090003D8D3 /* Product.swift */,
+				2C30242028F466570003D8D3 /* Nutriments.swift */,
 			);
 			path = YukaLike;
 			sourceTree = "<group>";
@@ -260,7 +272,11 @@
 			files = (
 				2C3023A928EC723E0003D8D3 /* ViewController.swift in Sources */,
 				2C3023A528EC723E0003D8D3 /* AppDelegate.swift in Sources */,
+				2C30241D28EEC68A0003D8D3 /* ProductResponse.swift in Sources */,
+				2C3023D528EC77E10003D8D3 /* HttpClient.swift in Sources */,
+				2C30242128F466570003D8D3 /* Nutriments.swift in Sources */,
 				2C3023A728EC723E0003D8D3 /* SceneDelegate.swift in Sources */,
+				2C30241F28EEC7090003D8D3 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
