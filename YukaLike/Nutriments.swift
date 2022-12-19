@@ -18,7 +18,7 @@ struct Nutriments: Decodable {
     let fiber100g: Decimal
     let fiber_unit: String
     let fruitsVegetablesNutsEstimateFromIngredients100g: Decimal
-    let nutritionScoreFr100g: Decimal
+    let nutritionScoreFr100g: Int
     let proteins100g: Decimal
     let proteinsUnit: String
     let salt100g: Decimal
